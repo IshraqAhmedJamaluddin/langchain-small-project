@@ -4,8 +4,8 @@ A small project using langChain
 
 ## Setup and Running
 
-add a `.env` file to your base directory that includes your `OPEN_AI_API_KEY` e.g:
+add a `.env` file to your base directory that includes your `OPENAI_API_KEY` e.g:
 
 ```
-OPEN_AI_API_KEY=[YOUR KEY HERE]
+OPENAI_API_KEY=[YOUR KEY HERE]
 ```

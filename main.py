@@ -6,9 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPEN_AI_API_KEY = os.getenv("OPEN_AI_API_KEY")
-
-llm = OpenAI(openai_api_key=OPEN_AI_API_KEY)
+llm = OpenAI()
 
 code_prompt = PromptTemplate(
     template="Write a very short {language} function that will {task}",
